@@ -106,7 +106,7 @@ ipch/
 *.psess
 *.vsp
 *.vspx
-*.sap
+
 
 # Visual Studio Trace Files
 *.e2e
@@ -331,3 +331,6 @@ ASALocalRun/
 
 # MFractors (Xamarin productivity tool) working folder 
 .mfractor/
+
+#Include build only references
+!references_buildonly/**.*
